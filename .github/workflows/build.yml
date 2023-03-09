@@ -1,0 +1,33 @@
+# TODO tsc and test
+# main and PR
+
+name: Build and Check
+
+on:
+  pull_request:
+    # To manage 'surge-preview' action teardown, add default event types + closed event type
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
+    paths:
+      - '.github/actions/build/**/*'
+      - '.github/workflows/build.yml'
+      - 'src/**/*'
+      - '.nvmrc'
+      - '.xo-config.json'
+      - 'index.html'
+      - 'package.json'
+      - 'package-lock.json'
+      - 'tsconfig.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build
+        uses: ./.github/actions/build
+        with:
+          npm-script: 'ts'
+      - name: Check
+        run: npm test

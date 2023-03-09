@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build --base ./",
-    "build-for-surge": "tsc && vite build",
+    "build-demo": "vite build --base ./",
+    "build-for-surge": "vite build",
     "lint": "xo --fix",
     "preview": "vite preview --base ./",
-    "test": "xo"
+    "test": "xo",
+    "ts": "tsc"
   },
   "dependencies": {
     "bpmn-visualization": "~0.32.0"
