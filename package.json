@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build --base ./",
     "build-for-surge": "tsc && vite build",
+    "lint-check": "xo",
+    "lint": "xo --fix",
     "preview": "vite preview --base ./"
   },
   "dependencies": {
