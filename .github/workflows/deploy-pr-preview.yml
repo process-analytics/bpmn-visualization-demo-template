@@ -27,7 +27,7 @@ jobs:
         if: github.event.action != 'closed'
         with:
           npm-script: 'build-for-surge'
-      - uses: bonitasoft/actions/packages/surge-preview-tools@v1
+      - uses: bonitasoft/actions/packages/surge-preview-tools@v2
         id: surge-preview-tools
         with:
           surge-token: ${{ secrets.SURGE_TOKEN }}
