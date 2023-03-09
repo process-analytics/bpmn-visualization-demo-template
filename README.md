@@ -2,13 +2,22 @@
 
 A template repository to quickly initiate a [bpmn-visualization](https://github.com/process-analytics/bpmn-visualization-js) demo powered by [Vite](https://vitejs.dev/).
 
+
+## Using the template
+
+GH pages setup: xxx
+
+
 ## 🎮 The deployed solution
 
-To see the deployed solution: https://process-analytics.github.io/icpm-demo-2022/
+**TODO change the url to match the URL of the actual repository**
 
-## ⚒️ Setup
+To see the deployed solution: https://process-analytics.github.io/bpmn-visualization-demo-vitejs-template/
 
-Use the node version declared in [.nvmrc](.nvmrc) 
+
+## ⚒️ Development Setup
+
+Use the node version declared in [.nvmrc](.nvmrc). You can use a Node version manager like [nvm](https://github.com/nvm-sh/nvm).
 
 Install dependencies: `npm install`
 
