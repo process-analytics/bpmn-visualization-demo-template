@@ -15,11 +15,12 @@ A template repository to quickly initiate a [bpmn-visualization](https://github.
 - GH actions setup? enable + secrets (may require to manage them at GitHub organization level)
 
 
-## 🎮 The deployed solution
+## 🎮 Live demo
 
-**TODO change the url to match the URL of the actual repository**
-
-To see the deployed solution: https://process-analytics.github.io/bpmn-visualization-demo-vitejs-template/
+<!--
+TODO: this is the url of the template repository. Change the url to match the URL of the actual repository.
+-->
+The live demo is available at ⏩ https://process-analytics.github.io/bpmn-visualization-demo-template/
 
 
 ## ⚒️ Development Setup
