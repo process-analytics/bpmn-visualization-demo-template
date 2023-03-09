@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build --base ./",
     "build-for-surge": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --base ./"
   },
   "dependencies": {
     "bpmn-visualization": "~0.32.0"
