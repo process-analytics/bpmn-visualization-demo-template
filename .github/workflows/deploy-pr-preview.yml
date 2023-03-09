@@ -30,6 +30,12 @@ jobs:
         if: github.event.action != 'closed'
         with:
           npm-script: 'build-for-surge'
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        if: github.event.action != 'closed'
+        with:
+          name: demo-pr-${{github.event.pull_request.number}}-${{github.sha}}
+          path: dist
       - uses: bonitasoft/actions/packages/surge-preview-tools@v2
         id: surge-preview-tools
         with:
