@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "tsc && vite build --base ./",
     "build-for-surge": "tsc && vite build",
-    "lint-check": "xo",
     "lint": "xo --fix",
-    "preview": "vite preview --base ./"
+    "preview": "vite preview --base ./",
+    "test": "xo"
   },
   "dependencies": {
     "bpmn-visualization": "~0.32.0"
