@@ -1,6 +1,8 @@
-# bpmn-visualization-demo-vitejs-template
+# bpmn-visualization-demo-ts-template
 
-A template repository to quickly initiate a [bpmn-visualization](https://github.com/process-analytics/bpmn-visualization-js) demo powered by [Vite](https://vitejs.dev/).
+A template repository to quickly initiate a [bpmn-visualization](https://github.com/process-analytics/bpmn-visualization-js) demo
+- powered by [Vite](https://vitejs.dev/)
+- written in [TypeScript](https://www.typescriptlang.org/)
 
 
 ## Using the template
