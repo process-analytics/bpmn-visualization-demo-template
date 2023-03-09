@@ -19,6 +19,9 @@ h1 {
 section {
   display: flex;
   place-items: center;
+  flex-direction: column;
+
+  height: 100vh;
 }
 
 #bpmn-container {
@@ -29,13 +32,13 @@ section {
   border-color: #b0b0b0;
   border-width: .1rem;
   border-radius: .2rem;
+
+  margin: auto;
 }
 
 footer {
-  position: absolute;
-  bottom: 1rem;
-  right: 1rem;
-  z-index: 1;
+  margin-top: auto;
+  margin-bottom: 2rem;
 }
 
 .title {
