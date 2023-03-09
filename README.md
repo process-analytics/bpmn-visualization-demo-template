@@ -5,7 +5,10 @@ A template repository to quickly initiate a [bpmn-visualization](https://github.
 
 ## Using the template
 
-GH pages setup: xxx
+- Link doc gh use template
+- GH pages setup: xxx
+- Dependabot setup?
+- GH actions setup? enable (orga)
 
 
 ## 🎮 The deployed solution
