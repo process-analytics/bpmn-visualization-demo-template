@@ -17,7 +17,7 @@ To see the deployed solution: https://process-analytics.github.io/bpmn-visualiza
 
 ## ⚒️ Development Setup
 
-Use the node version declared in [.nvmrc](.nvmrc). You can use a Node version manager like [nvm](https://github.com/nvm-sh/nvm).
+Use the node version declared in [.nvmrc](.nvmrc). You can use a Node version manager like [nvm](https://github.com/nvm-sh/nvm): `nvm use`
 
 Install dependencies: `npm install`
 
