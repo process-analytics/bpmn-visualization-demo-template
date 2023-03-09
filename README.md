@@ -7,10 +7,12 @@ A template repository to quickly initiate a [bpmn-visualization](https://github.
 
 ## Using the template
 
-- Link doc gh use template
+- Create your repository based on this repository template: see https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
+
+**TODO confirm how to handle the rest**
 - GH pages setup: xxx
-- Dependabot setup?
-- GH actions setup? enable (orga)
+- Dependabot setup: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates
+- GH actions setup? enable + secrets (may require to manage them at GitHub organization level)
 
 
 ## 🎮 The deployed solution
