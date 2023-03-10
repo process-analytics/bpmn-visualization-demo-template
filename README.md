@@ -13,7 +13,7 @@ A template repository to quickly initiate a [bpmn-visualization](https://github.
   - GitHub pages: enable _Build and deployment_ with _Source_ [GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
   - Dependabot: a configuration is provided by the template, see the [configuration documentation](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates) for more details.
   - GH actions: enable and manage secrets (it may require to manage them at GitHub organization level)
-  - Other settings: apply guidelines described in the .github repository
+  - Other settings: apply guidelines described in the [.github](https://github.com/process-analytics/.github/) repository
 
 
 ## 🎮 Live demo
