@@ -9,10 +9,11 @@ A template repository to quickly initiate a [bpmn-visualization](https://github.
 
 - Create your repository based on this repository template: see https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
-**TODO confirm how to handle the rest**
-- GH pages setup: xxx
-- Dependabot setup: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates
-- GH actions setup? enable + secrets (may require to manage them at GitHub organization level)
+- Update the repository settings
+  - GitHub pages: enable _Build and deployment_ with _Source_ [GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow)
+  - Dependabot: a configuration is provided by the template, see the [configuration documentation](https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuring-dependabot-version-updates) for more details.
+  - GH actions: enable and manage secrets (it may require to manage them at GitHub organization level)
+  - Other settings: apply guidelines described in the .github repository
 
 
 ## 🎮 Live demo
@@ -29,7 +30,7 @@ Use the node version declared in [.nvmrc](.nvmrc). You can use a Node version ma
 
 Install dependencies: `npm install`
 
-Start the dev server: `npm start`
+Start the dev server: `npm run dev`
 
 The demo is accessible at http://localhost:5173/
 
