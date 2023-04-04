@@ -44,5 +44,4 @@ bpmnVisualization.bpmnElementsRegistry.addCssClasses(
 const footer = document.querySelector<HTMLElement>('footer')!;
 const version = bpmnVisualization.getVersion();
 const versionAsString = `bpmn-visualization@${version.lib}`;
-const dependenciesAsString = [...version.dependencies].map(([name, version]) => `${name}@${version}`).join('/');
-footer.textContent = `${versionAsString} with ${dependenciesAsString}`;
+footer.textContent = `${versionAsString}`;
