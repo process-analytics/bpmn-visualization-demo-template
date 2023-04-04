@@ -43,6 +43,15 @@ header {
   margin-right: .5rem;
 }
 
+.gh-logo {
+  display: flex;
+  text-decoration: none;
+  margin-left: .5rem;
+}
+.gh-logo img {
+  width: 2rem;
+}
+
 #bpmn-container {
   height: 80vh;
   width: 80vw;
