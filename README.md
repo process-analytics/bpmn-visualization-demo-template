@@ -69,4 +69,4 @@ Create a new GitHub release by following the [GitHub help](https://help.github.c
 
 <img src="https://surge.sh/images/logos/svg/surge-logo.svg" alt="surge.sh logo" title="surge.sh" width="110"/>
 
-**[surge.sh](https://surge.sh)** (<kbd>demo</kbd> preview environments)
+**[surge.sh](https://surge.sh)** (<kbd>demo</kbd> preview environment)
