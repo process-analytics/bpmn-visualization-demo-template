@@ -14,8 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import './style.css';
 import {BpmnVisualization, FitType, type Overlay} from 'bpmn-visualization';
+import './style.css';
 // This is simple example of the BPMN diagram, loaded as string. The '?.raw' extension support is provided by Vite.
 // For other load methods, see https://github.com/process-analytics/bpmn-visualization-examples
 // eslint-disable-next-line n/file-extension-in-import -- Vite syntax
