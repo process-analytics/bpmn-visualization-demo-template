@@ -5,7 +5,7 @@ A template repository to quickly initiate a [bpmn-visualization](https://github.
 - written in [TypeScript](https://www.typescriptlang.org/)
 
 
-## Using the template
+## 🤔 Using the template
 
 - Create your repository based on this repository template: see https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
 
@@ -34,7 +34,7 @@ Start the dev server: `npm run dev`
 
 The demo is accessible at http://localhost:5173/
 
-### Code linter
+### 🎨 Code linter
 
 The code should be linted with [xo](https://github.com/xojs/xo). To have support in your favorite IDE, see the [how-to used in IDE](https://github.com/xojs/xo#editor-plugins) documentation. 
 
@@ -46,7 +46,7 @@ To lint the code, run `npm run lint`.
 The code of this demo is released under the [Apache 2.0](LICENSE) license.
 
 
-## Release how-to
+## 🚀 Release how-to
 
 When all updates have been completed, you are ready to publish a new release.
 
