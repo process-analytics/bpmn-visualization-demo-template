@@ -50,6 +50,8 @@ The code of this demo is released under the [Apache 2.0](LICENSE) license.
 
 When all updates have been completed, you are ready to publish a new release.
 
+Notes: use the previous [releases](https://github.com/process-analytics/bpmn-visualization-demo-template/releases) as a source of inspiration.
+
 Create a new GitHub release by following the [GitHub help](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository#creating-a-release)
 - for `Tag version`, use a value following the **vX.Y.Z** scheme using the [Semantic Versioning](https://semver.org/).
 - for `Target`
@@ -58,7 +60,15 @@ Create a new GitHub release by following the [GitHub help](https://help.github.c
     - in that case, choose a dedicated commit
 - Description
     - briefly explain the contents of the new version
+    - if the `bpmn-visualization` version is updated, mention it
     - make GitHub generates the [release notes automatically](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes)
+- Generate and attach an archive of the demo
+  - x
+  - generate the checksum of the archive and store it in a `bpmn-visualization-demo-template-X.Y.Z_checksums.txt` file by running: `sha256sum ./bpmn-visualization-demo-template-1.0.0.zip`
+  - attach the demo and the checksum files as an asset of the release
+  - in the release notes, explain how to run the demo attached to this release
+
+
 
 
 ## ⚡ Powered by
