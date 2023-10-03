@@ -63,12 +63,11 @@ Create a new GitHub release by following the [GitHub help](https://help.github.c
     - if the `bpmn-visualization` version is updated, mention it
     - make GitHub generates the [release notes automatically](https://docs.github.com/en/repositories/releasing-projects-on-github/automatically-generated-release-notes)
 - Generate and attach an archive of the demo
-  - x
-  - generate the checksum of the archive and store it in a `bpmn-visualization-demo-template-X.Y.Z_checksums.txt` file by running: `sha256sum ./bpmn-visualization-demo-template-1.0.0.zip`
+  - generate the demo archive by running `npm run build` with the code of the commit that will be used for the release
+  - zip the demo archive into `bpmn-visualization-demo-template-X.Y.Z.zip`
+  - generate the checksum of the archive and store it in a `bpmn-visualization-demo-template-X.Y.Z_checksums.txt` file by running: `sha256sum ./bpmn-visualization-demo-template-X.Y.Z.zip`
   - attach the demo and the checksum files as an asset of the release
   - in the release notes, explain how to run the demo attached to this release
-
-
 
 
 ## ⚡ Powered by
