@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import {BpmnVisualization, FitType, type Overlay} from 'bpmn-visualization';
+import {BpmnVisualization, FitType, getVersion, type Overlay} from 'bpmn-visualization';
 import './style.css';
 // This is simple example of the BPMN diagram, loaded as string. The '?.raw' extension support is provided by Vite.
 // For other load methods, see https://github.com/process-analytics/bpmn-visualization-examples
@@ -79,6 +79,6 @@ bpmnElementsRegistry.addOverlays('Activity_083jf01',
 
 // Display the bpmn-visualization version in the footer
 const footer = document.querySelector<HTMLElement>('footer')!;
-const version = bpmnVisualization.getVersion();
+const version = getVersion();
 const versionAsString = `bpmn-visualization@${version.lib}`;
 footer.textContent = `${versionAsString}`;
