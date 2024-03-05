@@ -12,7 +12,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "bpmn-visualization": "~0.42.0"
+    "bpmn-visualization": "~0.43.0"
   },
   "devDependencies": {
     "typescript": "~5.1.3",
