@@ -1,5 +1,9 @@
 # bpmn-visualization-demo-template
 
+| Archived on 2024-01-13 | We no longer use this repository. |
+| -------- | -------- |
+
+
 A template repository to quickly initiate a [bpmn-visualization](https://github.com/process-analytics/bpmn-visualization-js) demo
 - powered by [Vite](https://vitejs.dev/)
 - written in [TypeScript](https://www.typescriptlang.org/)
